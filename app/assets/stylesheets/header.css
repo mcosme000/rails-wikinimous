@@ -1,0 +1,10 @@
+header {
+  padding: 10px;
+  background: lightgrey;
+}
+
+header h1 {
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}

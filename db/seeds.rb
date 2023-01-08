@@ -14,7 +14,8 @@ puts 'Creating 10 new amazing articles...'
 10.times do
   Article.create!(
     title: Faker::Lorem.sentence,
-    content: Faker::Lorem.paragraph
+    content: Faker::Lorem.paragraph,
+    photo: Faker::LoremFlickr.unique.image
   )
 end
 

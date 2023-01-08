@@ -30,6 +30,8 @@ gem "jbuilder"
 
 # MY IMPORTED GEMS:
 gem 'faker'
+gem 'unsplash'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
